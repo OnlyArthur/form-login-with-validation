@@ -250,13 +250,6 @@ input.btn {
 }
 
 /*
-filter: brightness(90%); | Escurece o botão quando o mouse é posicionado em cima dele.
-*/
-input.btn:hover {
-    filter: brightness(90%);
-}
-
-/*
 Quando disabilitado...
 
 background: lightgray; | O botão vai ter uma cor cinza.
@@ -273,4 +266,11 @@ filter: brightness(100%); | Ao passar o mouse sobre o botão ele não vai mudar 
 */
 input.btn:disabled:hover{
     filter: brightness(100%);
-} 
+}
+
+/*
+filter: brightness(90%); | Escurece o botão quando o mouse é posicionado em cima dele.
+*/
+input.btn:hover {
+    filter: brightness(90%);
+}
